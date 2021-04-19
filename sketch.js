@@ -11,7 +11,6 @@ function draw() {
   textSize(24);
   textStyle("italics");
   text("Tick Tock clock by NISTHA DEB..",350,50);
- 
   fill("white");
   textSize(18);
   text("White Colour Indicates value of every Hour",400,90);
@@ -19,25 +18,9 @@ function draw() {
   text("Yellow Colour Indicates value of every second",400,150);
   text("So Let us now respect the value of all these",400,180);
   text("as , each of them is really really imortant",400,210);
-  text("and none of these can be buyed by MONEY....SO DONT WASTE TIME!...ITS RUNING",400,240);
+  text("and none of these can be buyed by MONEY...",400,240);
+  text("SO DONT WASTE TIME....",400,270);
 
-  fill("white");
-  textSize(18);
-  text("12",200,100);
-  text("1",250,115);
-  text("2",285,150);
-
-  text("3",300,200);
-  text("4",285,250);
-  text("5",250,290);
-
-  text("6",200,300);
-  text("7",150,290);
-  text("8",110,250);
-
-  text("9",100,200);
-  text("10",110,150);
-  text("11",150,115);
 
 
 translate(200,200);
@@ -79,6 +62,8 @@ rotate (-90);
 
   stroke("black");
   point (0,0);
+
+ 
 
   drawSprites();
 }
